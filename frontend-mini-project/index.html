@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="card">
+            <h2>Add Student</h2>
+            <form id="studentForm">
+                <input type="text" id="name" required placeholder="Student Name">
+                <input type="text" id="roll" required placeholder="Roll Number">
+                <button type="submit" class="btn">Add</button>
+            </form>
+        </section>
+
+        <section class="card">
+            <input type="text" id="searchInput" placeholder="Search student...">
+            
+            <table id="studentTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Roll No.</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="studentList">
+                    </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
