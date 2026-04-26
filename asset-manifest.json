@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mern-internship/static/css/main.fd91fc89.css",
+    "main.js": "/mern-internship/static/js/main.27618648.js",
+    "static/js/453.6e4f956a.chunk.js": "/mern-internship/static/js/453.6e4f956a.chunk.js",
+    "index.html": "/mern-internship/index.html",
+    "main.fd91fc89.css.map": "/mern-internship/static/css/main.fd91fc89.css.map",
+    "main.27618648.js.map": "/mern-internship/static/js/main.27618648.js.map",
+    "453.6e4f956a.chunk.js.map": "/mern-internship/static/js/453.6e4f956a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd91fc89.css",
+    "static/js/main.27618648.js"
+  ]
+}
