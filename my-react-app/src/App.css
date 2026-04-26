@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.light {
+  background-color: #fafafa;
+  color: #333;
+}
+
+.dark {
+  background-color: #222;
+  color: #eee;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.dark button {
+  background: #444;
+  border-color: #555;
+  color: #eee;
+}
+
+.components-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

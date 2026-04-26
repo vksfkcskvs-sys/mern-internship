@@ -1,0 +1,31 @@
+.feature-box {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 4px;
+}
+
+.dark .feature-box {
+  border-color: #444;
+}
+
+.feature-box h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+
+.dark textarea {
+  background: #333;
+  color: #eee;
+  border-color: #555;
+}
