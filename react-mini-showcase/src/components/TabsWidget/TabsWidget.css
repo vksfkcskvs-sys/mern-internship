@@ -1,0 +1,3 @@
+.tab-headers { display: flex; gap: 5px; border-bottom: 2px solid #eee; margin-bottom: 15px; }
+.tab-headers button { padding: 10px; background: none; border: none; cursor: pointer; }
+.active-tab { border-bottom: 2px solid #007bff !important; font-weight: bold; }
